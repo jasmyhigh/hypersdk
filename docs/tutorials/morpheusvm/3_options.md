@@ -108,7 +108,7 @@ Each JSON-RPC method generally consists of the following:
 - A reply struct
 - The method itself
 
-For exmaple, consider the `Balance()` method. We define `BalanceArgs` which
+For example, consider the `Balance()` method. We define `BalanceArgs` which
 takes in an argument of the address being queried (`Address`). Then, we have
 `BalanceReply` which holds the balance of the account. Finally, `Balance()`
 itself produces the expected results. In this case, it first converts `Address`
@@ -335,7 +335,7 @@ Options consist of the following:
 
 - A namespace
 - A default config the option can unmarshal into
-- An option function that takes in the VM along with the recieved config value
+- An option function that takes in the VM along with the received config value
 
 The option function is especially important, as it's what allows our VM to
 eventually instantiate our JSON-RPC server. At this point, your `vm` directory
