@@ -338,7 +338,7 @@ output is arbitrary bytes defined by the `hypervm`) upon successful execution.
 
 The `tokenvm` uses `Action` batches to offer complex, atomic interactions over simple
 primitives (i.e. create order, fill order, and cancel order). For example, a user
-can create a transaction that fills 8 orders. If any of the fills fail, all pending
+can create a transaction that fills 8 orders. If any of the fills fail, all pending  
 state changes in the transaction are rolled back. The `tokenvm` uses `Action` outputs to
 return the remaining units on any partially filled order to power an in-memory orderbook.
 
