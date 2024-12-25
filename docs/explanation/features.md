@@ -145,7 +145,7 @@ Most blockchains that store a state root in the block use the root of a merkle t
 of state post-execution, however, this requires waiting for state merklization to complete
 before block verification can finish. If merklization was fast, this wouldn't be an
 issue, however, this process is typically the most time consuming aspect of block
-verification.
+verification. 
 
 `hypersdk` blocks instead include the merkle root of the post-execution state of a block's
 parent rather than a merkle root of their own post-execution state. This design enables the
