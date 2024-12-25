@@ -2,7 +2,7 @@
 
 This is the SDK to write web-assembly based smart-contracts for a HyperVM with smart-contracts enabled.
 
-First and foremost, this SDK is under active development and keeping the documentation up to date with rapidly changing code can be difficult. If you see any discrepencies, please feel free to open up a GitHub issue, or even submit a PR.
+First and foremost, this SDK is under active development and keeping the documentation up to date with rapidly changing code can be difficult. If you see any discrepancies, please feel free to open up a GitHub issue, or even submit a PR.
 
 ### Concepts
 
