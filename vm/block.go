@@ -185,7 +185,7 @@ func (b *StatefulBlock) Accept(ctx context.Context) error {
 	ctx, span := b.vm.Tracer().Start(ctx, "StatefulBlock.Accept")
 	defer span.End()
 
-	// Consider verifying the a block if it is not processed and we are no longer
+	// Consider verifying a block if it is not processed and we are no longer
 	// syncing.
 	if !b.Processed() {
 		// The state of this block was not calculated during the call to
