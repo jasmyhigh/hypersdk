@@ -110,7 +110,7 @@ This should return the following JSON:
 
 _By default, this allocates all funds on the network to `0x00c4cb545f748a28770042f893784ce85b107389004d6a0e0d6d7518eeae1292d9`. The private
 key for this address is `0x323b1d8f4eed5f0da9da93071b034f2dce9d2d22692c172f3cb252a64ddfafd01b057de320297c29ad0c1f589ea216869cf1938d88c9fbd70d6748323dbf2fa7`.
-For convenience, this key has is also stored at `demo.pk`._
+For convenience, this key is also stored at `demo.pk`._
 
 
 Remember that due to running a node at the default HTTP Port of AvalancheGo, you need to stop your network before restarting:
@@ -159,7 +159,7 @@ Next, you'll need to add the chains you created and the default key to the
 ./build/morpheus-cli key import ed25519 demo.pk
 ```
 
-If the key is added corretcly, you'll see the following log:
+If the key is added correctly, you'll see the following log:
 ```
 database: .morpheus-cli
 imported address: 0x00c4cb545f748a28770042f893784ce85b107389004d6a0e0d6d7518eeae1292d9
